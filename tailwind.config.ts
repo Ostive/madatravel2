@@ -85,6 +85,34 @@ export default {
         DEFAULT: {
           css: {
             maxWidth: 'none',
+            color: '#334155',
+            h1: {
+              color: '#065f46',
+              fontWeight: '800',
+            },
+            h2: {
+              color: '#065f46',
+              fontWeight: '700',
+            },
+            h3: {
+              color: '#065f46',
+              fontWeight: '600',
+            },
+            blockquote: {
+              borderLeftColor: '#059669',
+              color: '#059669',
+              fontStyle: 'italic',
+              fontWeight: '500',
+            },
+            a: {
+              color: '#059669',
+              '&:hover': {
+                color: '#047857',
+              },
+            },
+            img: {
+              borderRadius: '0.5rem',
+            },
           },
         },
       },
